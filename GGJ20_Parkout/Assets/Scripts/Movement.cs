@@ -16,6 +16,9 @@ public class Movement : MonoBehaviour
     private Vector3 velocity;
     private bool isGrounded;
     
+    //controls
+    private bool slide = Input.GetKey(KeyCode.K);
+    
     // Start is called before the first frame update
     void Start()
     {
