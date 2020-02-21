@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\ASUS\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\ASUS\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_GGJ20_Parkout.-1883106236.00" t="ExcludeRecursive" />
-    <e p="C:\Users\ASUS\Documents\ggj20_estgoh\GGJ20_Parkout" t="IncludeRecursive">
+    <e p="C:\Users\binog\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\binog\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_GGJ20_Parkout.956490850.00" t="ExcludeRecursive" />
+    <e p="C:\Users\binog\Desktop\GGJ20_Parkout" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -24,6 +25,65 @@
             <e p="PlayerMovement.cs" t="Include" />
           </e>
         </e>
+        <e p="BOXOPHOBIC" t="Include">
+          <e p="Skybox Cubemap Extended" t="Include">
+            <e p="Core" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="Skybox Cubemap Extended.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Utils" t="Include">
+            <e p="CGIncludes" t="Include">
+              <e p="VS_indirect.cginc" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="BConst.cs" t="Include" />
+              <e p="BEditorGUI.cs" t="Include" />
+              <e p="BEditorUtils.cs" t="Include" />
+              <e p="BVersion.cs" t="Include" />
+            </e>
+            <e p="PropertyDrawers" t="Include">
+              <e p="BCategoryAttribute.cs" t="Include" />
+              <e p="BInteractiveAttribute.cs" t="Include" />
+              <e p="BMessageAttribute.cs" t="Include" />
+              <e p="BRangeOptionsAttribute.cs" t="Include" />
+              <e p="BRangeSimpleAttribute.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="BBannerDrawer.cs" t="Include" />
+                <e p="BCategoryAttributeDrawer.cs" t="Include" />
+                <e p="BCategoryDrawer.cs" t="Include" />
+                <e p="BInteractiveAttributeDrawer.cs" t="Include" />
+                <e p="BInteractiveDrawer.cs" t="Include" />
+                <e p="BMessageAttributeDrawer.cs" t="Include" />
+                <e p="BMessageDrawer.cs" t="Include" />
+                <e p="BRangeOptionsAttributeDrawer.cs" t="Include" />
+                <e p="BRangeSimpleAttributeDrawer.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="SimpleLit Prototype Terrain.shader" t="Include" />
+              <e p="StandardLit Prototype Terrain.shader" t="Include" />
+              <e p="Unlit Prototype Ground.shader" t="Include" />
+              <e p="Unlit Prototype Skybox.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Kino" t="Include">
+          <e p="Glitch" t="Include">
+            <e p="AnalogGlitch.cs" t="Include" />
+            <e p="DigitalGlitch.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="AnalogGlitchEditor.cs" t="Include" />
+              <e p="DigitalGlitchEditor.cs" t="Include" />
+            </e>
+            <e p="Shader" t="Include">
+              <e p="AnalogGlitch.shader" t="Include" />
+              <e p="DigitalGlitch.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Menu.cs" t="Include" />
         <e p="SampleScenes" t="Include">
           <e p="Menu" t="Include">
             <e p="Scripts" t="Include">
@@ -43,9 +103,27 @@
             <e p="Skybox-Procedural.shader" t="Include" />
           </e>
         </e>
+        <e p="Scenes" t="Include">
+          <e p="UnlockCursor.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
+          <e p="AddTime.cs" t="Include" />
+          <e p="Appear.cs" t="Include" />
+          <e p="CountDown.cs" t="Include" />
+          <e p="Dissapear.cs" t="Include" />
+          <e p="EndLevel.cs" t="Include" />
+          <e p="GameOver.cs" t="Include" />
+          <e p="GG.cs" t="Include" />
+          <e p="Glitch.cs" t="Include" />
+          <e p="GManager.cs" t="Include" />
+          <e p="key.cs" t="Include" />
+          <e p="MainMenu.cs" t="Include" />
           <e p="MouseLook.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="PauseMenu.cs" t="Include" />
+          <e p="RepairBox.cs" t="Include" />
+          <e p="TimeManager.cs" t="Include" />
+          <e p="you_spin_me_right_round_baby.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="Cameras" t="Include">
@@ -277,6 +355,34 @@
                 <e p="ReflectiveDiffuseSpecTransp.shader" t="Include" />
               </e>
             </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
       </e>
